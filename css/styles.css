@@ -197,20 +197,23 @@ header {
 
 .benefits-list {
   list-style-type: none;
-  gap: 24px;
+  gap: 72px;
+  flex-wrap: wrap;
 }
 
 .benefits-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: 100%;
 }
 
 .benefits-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
   color: var(--title-color);
   margin-bottom: 8px;
+  text-align: center;
 }
 .benefits-description {
   font-size: 16px;
@@ -224,7 +227,7 @@ header {
 .benefits-icon {
   background-color: var(--light-backround);
   border-radius: 4px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   /* padding: 24px 0 24px 0; */
@@ -763,7 +766,7 @@ img {
   margin-bottom: 4px;
 }
 .modal-icon {
-  fill: #2E2F42;
+  fill: #2e2f42;
   position: absolute;
   left: 16px;
   top: 50%;
