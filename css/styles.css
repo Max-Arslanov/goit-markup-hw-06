@@ -951,3 +951,33 @@ img {
     text-align: unset;
   }
 }
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .benefits-list {
+    flex-wrap: unset;
+  }
+  .benefits-icon {
+    background-color: var(--light-backround);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 24px 0 24px 0; */
+    margin-bottom: 8px;
+    height: 112px;
+  }
+  .benefits-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .benefits-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
