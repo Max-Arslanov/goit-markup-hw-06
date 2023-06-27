@@ -1001,7 +1001,7 @@ img {
     width: calc((100% - 72px) / 4);
   }
   .services {
-    display: unset;
+    display: block;
     padding: 0 0 120px 0;
   }
 }
