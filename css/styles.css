@@ -987,4 +987,16 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  .team {
+    padding: 120px 0;
+  }
+  .team-members-list {
+    gap: 24px;
+    margin-bottom: 0;
+    margin-top: 0;
+    flex-wrap: unset;
+  }
+  .team-card {
+    width: calc((100% - 72px) / 4);
+  }
 }
