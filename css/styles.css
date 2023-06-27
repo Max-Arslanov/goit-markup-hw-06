@@ -242,8 +242,8 @@ header {
 }
 
 .services {
-  /* padding-bottom: 120px; */
   display: none;
+  padding-bottom: 120px;
 }
 
 .services-heading {
@@ -1002,6 +1002,6 @@ img {
   }
   .services {
     display: unset;
-    padding: 0 0 120px 0;
+    /* padding: 0 0 120px 0; */
   }
 }
