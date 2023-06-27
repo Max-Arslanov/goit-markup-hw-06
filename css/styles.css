@@ -554,7 +554,7 @@ img {
 }
 
 .customers {
-  padding: 120px 0;
+  padding: 96px 16px;
   /* max-width: 1128px; */
 }
 .customer-icon {
@@ -570,9 +570,11 @@ img {
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  gap: 24px;
+  column-gap: 16px;
+  row-gap: 72px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .customer-card {
   /* width: calc((100%-120px) / 6);
