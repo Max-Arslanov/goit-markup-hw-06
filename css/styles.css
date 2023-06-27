@@ -960,6 +960,10 @@ img {
     column-gap: 24px;
     row-gap: 64px;
   }
+  .customer-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -1005,5 +1009,18 @@ img {
   .services {
     display: block;
     padding: 0 0 120px 0;
+  }
+  .customers {
+    padding: 120px 0;
+  }
+  .customer-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: unset;
   }
 }
