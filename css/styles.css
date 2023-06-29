@@ -92,6 +92,7 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  padding: 22px 0;
 }
 
 .hero-heading {
@@ -106,7 +107,17 @@ header {
 
   max-width: 496px;
 }
-
+.hamburger {
+  width: 32px;
+  height: 22px;
+  background-color: transparent;
+  border: none;
+}
+.ham-menu-icon {
+  stroke: #2e2f42;
+}
+.mob-menu {
+}
 .hero-body {
   display: block;
 }
@@ -1013,6 +1024,9 @@ img {
     padding: 16px;
     gap: 12px;
   }
+  .header-navigation {
+    padding: 0;
+  }
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -1115,6 +1129,9 @@ img {
   .header-contact-link:hover,
   .header-contact-link:focus {
     color: var(--accent-color);
+  }
+  .header-navigation {
+    padding: 0;
   }
 }
 @media (min-device-pixel-ratio: 2),
