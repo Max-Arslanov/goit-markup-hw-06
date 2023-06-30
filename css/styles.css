@@ -1165,6 +1165,9 @@ img {
     justify-content: center;
     flex-wrap: unset;
   }
+  .logo-beginning {
+    margin-right: 76px;
+  }
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
