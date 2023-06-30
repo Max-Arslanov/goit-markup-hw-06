@@ -689,9 +689,7 @@ img {
 .footer-social {
   width: 208px;
   height: 80px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 72px;
+  margin: 0;
 }
 
 .footer-social-media {
@@ -1143,6 +1141,19 @@ img {
   .container {
     max-width: 1158px;
   }
+
+  .hero-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 496px;
+  }
+
   .benefits-list {
     flex-wrap: unset;
   }
@@ -1246,20 +1257,21 @@ img {
     padding: 100px 0;
     display: flex;
     align-items: baseline;
-
-    /* margin-top: 72px; */
+    justify-content: center;
   }
   .footer-content {
-    /* padding: 100px 0; */
     display: flex;
     align-items: baseline;
+    gap: unset;
+    flex-wrap: nowrap;
   }
   .footer-container {
-    margin-right: 120px;
+    margin: 0 120px 0 0;
   }
   .footer-form {
     display: flex;
     gap: 24px;
+    flex-wrap: nowrap;
   }
   .footer-input {
     width: 264px;
