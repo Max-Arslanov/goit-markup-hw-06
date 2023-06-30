@@ -1064,6 +1064,10 @@ img {
     gap: 40px;
   }
 
+  .logo-beginning {
+    margin-right: 120px;
+  }
+
   .address-default {
     font-style: normal;
   }
@@ -1092,6 +1096,25 @@ img {
   }
   .hamburger {
     display: none;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
+  .footer-input {
+    width: 268px;
+  }
+  .footer-social-heading {
+    text-align: left;
+  }
+  .footer-container {
+    align-items: unset;
+  }
+  .footer-settings {
+    padding: 96px 108px;
+  }
+  .footer-social {
+    margin-right: unset;
+    margin-left: unset;
   }
 }
 
