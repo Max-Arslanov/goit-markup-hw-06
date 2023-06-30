@@ -1119,8 +1119,8 @@ img {
     justify-content: start;
   }
   .footer-social {
-    margin-right: unset;
-    margin-left: unset;
+    /* margin-right: unset;
+    margin-left: unset; */
   }
 }
 
