@@ -1118,10 +1118,6 @@ img {
     align-items: baseline;
     justify-content: start;
   }
-  .footer-social {
-    /* margin-right: unset;
-    margin-left: unset; */
-  }
 }
 
 @media (min-device-pixel-ratio: 2),
