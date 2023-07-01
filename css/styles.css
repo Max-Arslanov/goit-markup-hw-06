@@ -1112,8 +1112,12 @@ img {
   .footer-social-heading {
     text-align: left;
   }
+  .footer-social {
+    margin-bottom: 0;
+  }
   .footer-container {
     align-items: unset;
+    margin-bottom: 0;
   }
   .footer-settings {
     display: flex;
