@@ -1065,6 +1065,22 @@ img {
     max-width: 768px;
   }
 
+  .hero-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-background);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 496px;
+  }
+
+  .hero-button {
+    margin-top: 36px;
+  }
+
   .header-menu {
     display: flex;
     gap: 40px;
