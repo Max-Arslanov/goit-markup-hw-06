@@ -258,7 +258,7 @@ header {
 }
 
 .why-choose {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .benefits-size {
@@ -1267,7 +1267,51 @@ img {
     display: flex;
     gap: 40px;
   }
+  .why-choose {
+    padding: 120px 0;
+  }
 
+  .benefits-list {
+    list-style-type: none;
+    gap: 24px;
+  }
+
+  .benefits-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .benefits-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    margin-bottom: 8px;
+  }
+  .benefits-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--subtitle-text);
+
+    /* SLATE */
+  }
+
+  .benefits-icon {
+    background-color: var(--light-backround);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 24px 0 24px 0; */
+    margin-bottom: 8px;
+    height: 112px;
+  }
+
+  .phone-number {
+    margin-bottom: 0;
+  }
   .address-default {
     font-style: normal;
   }
