@@ -1085,7 +1085,9 @@ img {
     display: flex;
     gap: 40px;
   }
-
+  .phone-number {
+    margin-bottom: 12px;
+  }
   .logo-beginning {
     margin-right: 120px;
   }
@@ -1110,8 +1112,6 @@ img {
   }
   .header-tab-menu {
     display: block;
-    padding: 16px;
-    gap: 12px;
   }
   .header-navigation {
     padding: 0;
